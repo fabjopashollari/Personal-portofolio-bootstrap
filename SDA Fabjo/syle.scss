@@ -1,0 +1,35 @@
+@forward "./header";
+@use "./ngjyr" as ngjyr;
+@forward "./nav";
+@use "./typography" as typography;
+$x: white;
+body{
+    background-color:blue;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+#div1{
+    background-color: ngjyr.$ngjyra;
+    width: typography.$large;
+    height: typography.$medium;
+}
+
+#div2{
+    background-color: $x;
+}
+
+#div3{
+    background-color: $x;
+}
+@mixin qender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hi{
+    @include qender;
+}
+#hello{
+    @include qender;
+}

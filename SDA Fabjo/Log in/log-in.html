@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="log-in.css"/>
+        <title>Log in form </title>
+    </head>
+    <body> 
+        <center>
+        <div id="x">
+            <h1 id="titulli" > Instagram </h1>
+            <p id="teksti"> Sign up to see photos and videos from your friends. </p>
+            <button class="facebook"> Log in whith Facebook </button>
+            <hr>
+                <form>
+            <label for="contactInfo">Enter Telephone Number or Email Address:</label>
+                <input type="text" id="contactInfo" name="contactInfo" onblur="validateInput()" placeholder="Telephone Number or Email Address">
+                <span id="validationMessage"></span>
+                <br>
+            <label for="fullname">Enter your Full Name:" </label>
+                <input type="text" id="fullname" name="fullname" placeholder="Full Name" >
+                <br>
+            <label for="username">Enter a Username:</label>
+                <input type="text" id="username" name="username" placeholder="Username">
+                <br>
+            <label for="password">Enter a Password":</label>
+                <input type="password" id="password" name="password" placeholder="Password">
+                </form>
+                <br> 
+            <p class="paragrafi"> People who use our service may have uploaded your contact information to Instagram. <a class="paragrafi" href="https://www.facebook.com/help/instagram/261704639352628">Learn more.</a></p> 
+            <p class="paragrafi"> By signing up, you agree to our  
+            <a class="paragrafi" href="https://help.instagram.com/581066165581870/?locale=en_GB"> Terms, Privacy Policy and Cookies Policy.
+            </a></p>
+            <button id="sing-in">Sing in </button>
+        </div>
+        </center>
+    </body>
+</html> 

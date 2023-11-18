@@ -1,0 +1,40 @@
+header {
+  color: beige;
+}
+
+nav {
+  color: gray;
+}
+
+body {
+  background-color: blue;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+
+#div1 {
+  background-color: green;
+  width: 500px;
+  height: 200px;
+}
+
+#div2 {
+  background-color: white;
+}
+
+#div3 {
+  background-color: white;
+}
+
+#hi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=syle.css.map */
